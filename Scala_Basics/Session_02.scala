@@ -45,3 +45,7 @@ val z = List(4,5,6,7)
 z.drop(2)
 z.takeRight(1)
 z.takeRight(3)
+
+val x = List(1,2,3,4,5,6,7,8)
+x slice (0,3)
+x slice 3, 6)
