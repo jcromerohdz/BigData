@@ -20,7 +20,7 @@ df.describe().show()
 df.select("Volume").show()
 
 //Select multiple columns
-de.select($"Date", $"Close").show()
+df.select($"Date", $"Close").show()
 
 
 //create new columns
