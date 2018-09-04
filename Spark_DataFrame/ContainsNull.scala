@@ -4,7 +4,7 @@ val spar = SparkSession.builder().getOrCreate()
 
 val df = spark.read.option("header", "true").option("inferSchema","true")csv("ContainsNull.csv")
 
-df,printSchema()
+df.printSchema()
 
 df.show()
 
