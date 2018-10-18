@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Tue Oct 16 17:39:13 PDT 2018:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0166-7f76-5479-00000d292208 
-on database directory /Users/chris/Documents/Clases_Tec/BigData/Spark_Regression/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@34fc315d 
+Wed Oct 17 18:13:48 PDT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0166-84bc-58c2-0000110e7750 
+on database directory /Users/chris/Documents/Clases_Tec/BigData/Spark_Regression/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@99223ac 
 Loaded from file:/usr/local/Cellar/apache-spark/2.2.1/libexec/jars/derby-10.12.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_162-b12

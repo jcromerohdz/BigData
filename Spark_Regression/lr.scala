@@ -8,7 +8,7 @@ val spark = SparkSession.builder().getOrCreate()
 
 val data  = spark.read.option("header","true").option("inferSchema", "true").format("csv").load("Clean-USA-Housing.csv")
 
-data.printSchema
+data.printSchem
 
 data.head(1)
 
@@ -37,3 +37,11 @@ val output = assembler.transform(df).select($"label", $"features")
 output.show()
 
 //Linear regression model
+val lr = new LinearRegression()
+val lrModel = lr.fit(output)
+val trainingSummary = lrModel.summary
+
+trainingSummary.resuduals.show()
+trainingSummary.predictions.show()
+trainingSummary.r2 //variaza que hay 
+trainingSummary.rootMeanSquaredError
