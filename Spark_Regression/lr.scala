@@ -8,7 +8,7 @@ val spark = SparkSession.builder().getOrCreate()
 
 val data  = spark.read.option("header","true").option("inferSchema", "true").format("csv").load("Clean-USA-Housing.csv")
 
-data.printSchem
+data.printSchema
 
 data.head(1)
 
