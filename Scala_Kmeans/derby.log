@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Nov 06 18:29:09 PST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0166-ec00-871e-00000c62df88 
+on database directory /Users/chris/Documents/Clases_Tec/BigData/Scala_Kmeans/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@7977f046 
+Loaded from file:/usr/local/Cellar/apache-spark/2.2.1/libexec/jars/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_162-b12
+user.dir=/Users/chris/Documents/Clases_Tec/BigData/Scala_Kmeans
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13.6
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
