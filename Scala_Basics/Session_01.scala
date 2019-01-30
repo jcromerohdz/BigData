@@ -22,7 +22,7 @@ res0 + res11 // Int = 200
 // Values (val) are immutable, once they are assigned they
 // can not be changed.
 // Variables (var) can be reassigned.
-// Note, wwhen reassigning you must used the same data type!
+// Note, when reassigning you must used the same data type!
 
 // Data Types
 // Int
