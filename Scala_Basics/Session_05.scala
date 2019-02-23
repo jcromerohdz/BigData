@@ -17,8 +17,9 @@ while(y < 10){
     println(s"y is still less then 10, add 1 to y")
     y = y+1
     if(y==3) break 
-}
 
+}
+println("###########")
 
 // Functions 
 
@@ -39,7 +40,7 @@ def greetName(name:String): String={
 }
 
 val fullgreet = greetName("Christian")
-printlin(fullgreet)
+println(fullgreet)
 
 def isPrime(num:Int): Boolean = {
     for(n <- Range(2, num)){

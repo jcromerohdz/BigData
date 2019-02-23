@@ -1,8 +1,9 @@
 import org.apache.spark.sql.SparkSession
 
-val spar = SparkSession.builder().getOrCreate()
+val spark = SparkSession.builder().getOrCreate()
 
-val df = spark.read.option("header", "true").option("inferSchema","true")csv("CitiGroup2006_2008") //Finantial Crisis
+//val df = spark.read.option("header", "true").option("inferSchema","true")csv("CitiGroup2006_2008") //Finantial Crisis
+//val df = spark.read.csv("CitiGroup2006_2008") //Finantial Crisis
 
 //First 5 rows
 df.head(5)
