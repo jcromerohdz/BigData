@@ -34,10 +34,10 @@ import org.apache.spark.ml.linalg.Vectors
 val genderIndexer = new StringIndexer().setInputCol("Sex").setOutputCol("SexIndex")
 val embarkIndexer = new StringIndexer().setInputCol("Embarked").setOutputCol("EmbarkIndex")
 
-// Convertir los valores nuemericos a One Hot Encoding 0 - 1
+// Convertir los valores numericos a One Hot Encoding 0 - 1
 val genderEncoder = new OneHotEncoder().setInputCol("SexIndex").setOutputCol("SexVec")
 val embarkEncoder = new OneHotEncoder().setInputCol("EmbarkIndex").setOutputCol("EmbarkVec")
-// (lbel, features)
+// (label, features)
 //val assembler = new VectorAssembler().setInputCol(Array("Pclass", "SexVec", "Age", "SibSp", "Parch", "Fare", "EmbarkedVec")).setOutputCol("features")
 val assembler = (new VectorAssembler()
                   .setInputCols(Array("Pclass","SexVec", "Age","SibSp","Parch","Fare","EmbarkVec"))
