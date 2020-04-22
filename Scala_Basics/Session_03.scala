@@ -51,7 +51,7 @@ mutmap.keys
 mutmap.values
 
 //Practice 2
-// 1. Crea una lista llamad "lista" con los elementos "rojo", "blanco", "negro"
+// 1. Crea una lista llamada "lista" con los elementos "rojo", "blanco", "negro"
 // 2. Añadir 5 elementos mas a "lista" "verde" ,"amarillo", "azul", "naranja", "perla"
 // 3. Traer los elementos de "lista" "verde", "amarillo", "azul"
 // 4. Crea un arreglo de numero en rango del 1-1000 en pasos de 5 en 5

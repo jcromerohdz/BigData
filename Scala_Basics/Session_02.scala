@@ -20,8 +20,8 @@ my_tup._5 // res7: Boolean = true
 //   imprimir "Estoy ecribiendo un tweet"
 //4. Dada la variable mensaje = "Hola Luke yo soy tu padre!" utiliza slilce para extraer la
 //   secuencia "Luke"
-//5. Cual es la diferencia en value y una variable en scala?
-//6. Dada la tupla ((2,4,5),(1,2,3),(3.1416,23))) regresa el numero 3.1416 
+//5. Cual es la diferencia entre value y una variable en scala?
+//6. Dada la tupla (2,4,5,1,2,3,3.1416,23) regresa el numero 3.1416 
 
 // Collections Lists, arrays, 
 val evens = List(2,4,6,8,10) //evens: List[Int] = List(2,4,6,8,10)

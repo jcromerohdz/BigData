@@ -11,7 +11,7 @@ df.show()
 //df.na.drop().show()
 //df.na.drop(2).show()
 //df.na.fill(100).show()
-//df.na.fill("Missing Name")
+//df.na.fill("Missing Name").show()
 //df.na.fill("New name", Array("Name")).show() 
 //df.na.fill(200, Array("Sales")).show() 
 
