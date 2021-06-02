@@ -1,6 +1,6 @@
 val st = "item1 item2 item3" 
-st matches "item1 item2 item3" // res0: Boolean = false
-st matches "item2" // res1: Boolean = true
+st matches "item1 item2 item3" // res0: Boolean = true
+st matches "item2" // res1: Boolean = false
 st contains "item1" // res2: true
 st contains "tem4" // res3: false
 

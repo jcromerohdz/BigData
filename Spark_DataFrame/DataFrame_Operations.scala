@@ -28,7 +28,7 @@ val result = df.filter($"Close" < 480 && $"High" < 480).collect()
 val result = df.filter($"Close" < 480 && $"High" < 480).count()
 
 //equality
-df.filter($"High"===484.40).show()
+df.filter($"High" === 484.40).show()
 df.filter("High = 484.40").show()
 
 //Pearson correlation

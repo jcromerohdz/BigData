@@ -1,5 +1,5 @@
 //Contenido del proyecto
-//1.- Objectivo: Comparacion del rendimiento siguientes algoritmos de machine learning
+//1.- Objectivo: Comparación del rendimiento de los siguientes algoritmos de machine learning
 // - SVM
 // - Decision Three
 // - Logistic Regresion
@@ -11,7 +11,7 @@
 // 2. Indice
 // 3. Introduccion
 // 4. Marco teorico de los algoritmos
-// 5. Implementacion (Que herramientas usaron y porque (en este caso spark con scala))
+// 5. Implementación (Que herramientas usaron y porque (en este caso spark con scala))
 // 6. Resultados (Un tabular con los datos por cada algoritmo para ver su preformance)
 //    y su respectiva explicacion.
 // 7. Conclusiones

@@ -30,3 +30,5 @@ df.select(variance("Sales")).show()
 df.select(stddev("Sales")).show()
 
 df.select(collect_set("Sales")).show()
+
+df.orderBy($"Sales".desc).show()
