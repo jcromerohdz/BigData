@@ -12,7 +12,7 @@
 // 3. Introduccion
 // 4. Marco teorico de los algoritmos
 // 5. Implementación (Que herramientas usaron y porque (en este caso spark con scala))
-// 6. Resultados (Un tabular con los datos de 30 corridas por cada algoritmo y hacer un promedo 
+// 6. Resultados (Un tabular con los datos de 30 corridas por cada algoritmo y hacer un promedio 
 //                para ver su preformance)
 //    y su respectiva explicacion.
 // 7. Conclusiones
