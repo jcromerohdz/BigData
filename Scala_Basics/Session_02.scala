@@ -34,7 +34,7 @@ evens.tail //res12: List[Int] = List(4, 6, 8, 10)
 val my_list = List(List(1,2,3),List(3,2,1))
 val my_list = List(("a",1), ("b",2),("c",3))
 val my_list = List(1,5,3,7,6,109)
-my_list.lift
+my_list.last
 my_list.sorted
 my_list.size
 my_list.max

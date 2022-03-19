@@ -79,7 +79,7 @@ for(num <- Range(0,10)){
     } 
 }
 
-val names = List("Juan", "Luis", "Hugo", "Chrtistian", "Carlos")
+val names = List("Juan", "Luis", "Hugo", "Christian", "Carlos")
 
 for(name <- names){
     if(name.startsWith("C")){

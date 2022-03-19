@@ -41,7 +41,7 @@ val lr = new LinearRegression()
 val lrModel = lr.fit(output)
 val trainingSummary = lrModel.summary
 
-trainingSummary.resuduals.show()
+trainingSummary.residuals.show()
 trainingSummary.predictions.show()
 trainingSummary.r2 //variaza que hay 
 trainingSummary.rootMeanSquaredError
