@@ -56,21 +56,21 @@ val model = pipeline.fit(training)
 
 val results = model.transform(test)
 
-val results.select("prediction", "label", "features").show(5)
+results.select("prediction", "label", "features").show(5)
 
 
 //Probar el modelo solo se puede con la libreria vieja
-// import org.apache.spark.mllib.evaluation.MulticlassMetrics
+import org.apache.spark.mllib.evaluation.MulticlassMetrics
 import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
 
-val evaluator = new MulticlassClassificationEvaluator().setLabelCol("indexedLabel").setPredictionCol("prediction").setMetricName("accuracy")
+val evaluator = new MulticlassClassificationEvaluator().setLabelCol("label").setPredictionCol("prediction").setMetricName("accuracy")
 val accuracy = evaluator.evaluate(results)
 println(s"Accuracy = ${accuracy}")
-// val predictionAndLabels = results.select($"prediction",$"label").as[(Double, Double)].rdd
-// val metrics = new MulticlassMetrics(predictionAndLabels)
+val predictionAndLabels = results.select($"prediction",$"label").as[(Double, Double)].rdd
+val metrics = new MulticlassMetrics(predictionAndLabels)
 
 // Matriz de confusion
-// println("Confusion matrix:")
-// println(metrics.confusionMatrix)
+println("Confusion matrix:")
+println(metrics.confusionMatrix)
 
 // metrics.accuracy
