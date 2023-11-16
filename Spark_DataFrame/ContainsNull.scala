@@ -8,15 +8,15 @@ df.printSchema()
 
 df.show()
 
-//df.na.drop().show()
-//df.na.drop(2).show()
-//df.na.fill(100).show()
-//df.na.fill("Missing Name").show()
-//df.na.fill("New name", Array("Name")).show() 
-//df.na.fill(200, Array("Sales")).show() 
+// df.na.drop().show()
+// df.na.drop(2).show()
+// df.na.fill(100).show()
+// df.na.fill("Missing Name").show()
+// df.na.fill("New name", Array("Name")).show() 
+// df.na.fill(200, Array("Sales")).show() 
 
 //df.describe().show()
-//df.na.fill(400.5, Array("Sales")).show()
+// df.na.fill(400.5, Array("Sales")).show()
 //df.na.fill("Missing name", Array("Name")).show()
 
 //val df2 =df.na.fill(400.5, Array("Sales"))
