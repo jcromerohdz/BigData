@@ -5,8 +5,8 @@ val arr = Array("a","b","c")
 val arr = Array("a","b", true, 1.2)
 
 //Create arrays  with range method
-Array.range(0, 10)
-Array.range(0, 10, 2)
+Array.range(0, 11)
+Array.range(0, 11, 2)
 
 Range(0,5)
 
@@ -34,7 +34,6 @@ val newset = mylist.toSet
 newset
 
 //Maps key value pair storage
-
 val mymap = Map(("saludo", "Hola"), ("pi", 3.1416), ("z", 1.3))
 mymap("pi")
 mymap("saludo")

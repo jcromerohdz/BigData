@@ -46,9 +46,9 @@ if(person == "Jose"){
 
 
 //AND
-println((1 == 2) && (3 == 3))
+println((1 == 2) && (3 == 3)) // las condiciones deben ser verdaderas para ser verdadero
 //OR
-println((1 == 2) || (3 == 3))
+println((1 == 2) || (3 == 3)) // una de las condiciones debe ser verdadera para ser verdadero
 //NOT
 println(!(1 == 1))
 
@@ -72,7 +72,7 @@ for(i <- Set(1,2,3)){
     println(i)
 }
 
-for(num <- Range(0,10)){
+for(num <- Range(1,11)){
     if(num%2 == 0){
         println(s"$num is even")
     }else{

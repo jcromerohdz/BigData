@@ -23,6 +23,7 @@ df.filter("Close < 480 AND High < 480").show()
 
 //Collect the results
 val result = df.filter($"Close" < 480 && $"High" < 480).collect()
+val df_to_json = df.filter("Close < 480 AND High < 480").toJSON
 
 //Count the results
 val result = df.filter($"Close" < 480 && $"High" < 480).count()
